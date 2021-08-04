@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510A0C841A6BBB08C5C0F843 /* Pods_WUtils_WUtilsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951B713C35CC52573CFE278E /* Pods_WUtils_WUtilsTests.framework */; };
 		C35F601D26B7CA2000747855 /* WUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F601326B7CA2000747855 /* WUtils.framework */; };
 		C35F602226B7CA2000747855 /* WUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F602126B7CA2000747855 /* WUtilsTests.swift */; };
 		C35F602426B7CA2000747855 /* WUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F601626B7CA2000747855 /* WUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3ABBB7626B7E6E10097FB2E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBB7526B7E6E10097FB2E /* test.swift */; };
+		C3ABBB7A26B8ECB30097FB2E /* ExtensionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBB7926B8ECB30097FB2E /* ExtensionProtocol.swift */; };
+		E8BBAF40E0934757EF50ECDD /* Pods_WUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881483A4BD512AB3189F961B /* Pods_WUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BCDEFDC0D5626373B73AE7 /* Pods-WUtils-WUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils-WUtilsTests.debug.xcconfig"; path = "Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29263F3A711A4064A7E648EC /* Pods-WUtils-WUtilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils-WUtilsTests.release.xcconfig"; path = "Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4545783445267CAD45DEE594 /* Pods_WUtilsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A8361851D5B197A4B8C58E /* Pods-WUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils.release.xcconfig"; path = "Target Support Files/Pods-WUtils/Pods-WUtils.release.xcconfig"; sourceTree = "<group>"; };
+		881483A4BD512AB3189F961B /* Pods_WUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951B713C35CC52573CFE278E /* Pods_WUtils_WUtilsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtils_WUtilsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F601326B7CA2000747855 /* WUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F601626B7CA2000747855 /* WUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUtils.h; sourceTree = "<group>"; };
 		C35F601726B7CA2000747855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35F601C26B7CA2000747855 /* WUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F602126B7CA2000747855 /* WUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WUtilsTests.swift; sourceTree = "<group>"; };
 		C35F602326B7CA2000747855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3ABBB7526B7E6E10097FB2E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		C3ABBB7926B8ECB30097FB2E /* ExtensionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionProtocol.swift; sourceTree = "<group>"; };
+		E012A21FAF8CEBB08630E7C1 /* Pods-WUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils.debug.xcconfig"; path = "Target Support Files/Pods-WUtils/Pods-WUtils.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BBAF40E0934757EF50ECDD /* Pods_WUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +58,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35F601D26B7CA2000747855 /* WUtils.framework in Frameworks */,
+				510A0C841A6BBB08C5C0F843 /* Pods_WUtils_WUtilsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0344AECB9D91F6A197B65BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E012A21FAF8CEBB08630E7C1 /* Pods-WUtils.debug.xcconfig */,
+				49A8361851D5B197A4B8C58E /* Pods-WUtils.release.xcconfig */,
+				01BCDEFDC0D5626373B73AE7 /* Pods-WUtils-WUtilsTests.debug.xcconfig */,
+				29263F3A711A4064A7E648EC /* Pods-WUtils-WUtilsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C35F600926B7CA2000747855 = {
 			isa = PBXGroup;
 			children = (
 				C35F601526B7CA2000747855 /* WUtils */,
 				C35F602026B7CA2000747855 /* WUtilsTests */,
 				C35F601426B7CA2000747855 /* Products */,
+				0344AECB9D91F6A197B65BB8 /* Pods */,
+				C7ECA660257A4B79206AB585 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +99,7 @@
 		C35F601526B7CA2000747855 /* WUtils */ = {
 			isa = PBXGroup;
 			children = (
+				C3ABBB7426B7E6940097FB2E /* Sources */,
 				C35F601626B7CA2000747855 /* WUtils.h */,
 				C35F601726B7CA2000747855 /* Info.plist */,
 			);
@@ -84,6 +113,41 @@
 				C35F602326B7CA2000747855 /* Info.plist */,
 			);
 			path = WUtilsTests;
+			sourceTree = "<group>";
+		};
+		C3ABBB7426B7E6940097FB2E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBB7826B8E9200097FB2E /* Base */,
+				C3ABBB7726B8E9070097FB2E /* UIImage */,
+				C3ABBB7526B7E6E10097FB2E /* test.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C3ABBB7726B8E9070097FB2E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		C3ABBB7826B8E9200097FB2E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C3ABBB7926B8ECB30097FB2E /* ExtensionProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C7ECA660257A4B79206AB585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4545783445267CAD45DEE594 /* Pods_WUtilsDemo.framework */,
+				881483A4BD512AB3189F961B /* Pods_WUtils.framework */,
+				951B713C35CC52573CFE278E /* Pods_WUtils_WUtilsTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C35F602726B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtils" */;
 			buildPhases = (
+				C971C58F1BB378677E1F37CD /* [CP] Check Pods Manifest.lock */,
 				C35F600E26B7CA2000747855 /* Headers */,
 				C35F600F26B7CA2000747855 /* Sources */,
 				C35F601026B7CA2000747855 /* Frameworks */,
@@ -122,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C35F602A26B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtilsTests" */;
 			buildPhases = (
+				2DE0CDC0D3349812830A6ADF /* [CP] Check Pods Manifest.lock */,
 				C35F601826B7CA2000747855 /* Sources */,
 				C35F601926B7CA2000747855 /* Frameworks */,
 				C35F601A26B7CA2000747855 /* Resources */,
+				420725A4F2CC22CC70251A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +214,7 @@
 				TargetAttributes = {
 					C35F601226B7CA2000747855 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					C35F601B26B7CA2000747855 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -189,11 +257,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE0CDC0D3349812830A6ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WUtils-WUtilsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420725A4F2CC22CC70251A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C971C58F1BB378677E1F37CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WUtils-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C35F600F26B7CA2000747855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3ABBB7A26B8ECB30097FB2E /* ExtensionProtocol.swift in Sources */,
+				C3ABBB7626B7E6E10097FB2E /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +474,9 @@
 		};
 		C35F602826B7CA2000747855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E012A21FAF8CEBB08630E7C1 /* Pods-WUtils.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SWJ3K8T6B8;
@@ -349,6 +485,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = WUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjl.WUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +502,9 @@
 		};
 		C35F602926B7CA2000747855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A8361851D5B197A4B8C58E /* Pods-WUtils.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SWJ3K8T6B8;
@@ -373,6 +513,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = WUtils/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +529,9 @@
 		};
 		C35F602B26B7CA2000747855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01BCDEFDC0D5626373B73AE7 /* Pods-WUtils-WUtilsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWJ3K8T6B8;
 				INFOPLIST_FILE = WUtilsTests/Info.plist;
@@ -406,7 +549,9 @@
 		};
 		C35F602C26B7CA2000747855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29263F3A711A4064A7E648EC /* Pods-WUtils-WUtilsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWJ3K8T6B8;
 				INFOPLIST_FILE = WUtilsTests/Info.plist;

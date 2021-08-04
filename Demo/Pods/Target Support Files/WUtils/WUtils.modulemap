@@ -1,0 +1,6 @@
+framework module WUtils {
+  umbrella header "WUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
