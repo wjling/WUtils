@@ -1,16 +1,27 @@
 PODS:
+  - Kingfisher (6.3.1)
   - PinLayout (1.10.0)
+  - WUtils (0.0.1):
+    - PinLayout (~> 1.10.0)
 
 DEPENDENCIES:
-  - PinLayout
+  - Kingfisher
+  - WUtils (from `.`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Kingfisher
     - PinLayout
 
-SPEC CHECKSUMS:
-  PinLayout: e50e9a748b632905fca6e67043ea4b05d6c92186
+EXTERNAL SOURCES:
+  WUtils:
+    :path: "."
 
-PODFILE CHECKSUM: 0ca6ebf039e9495c746dfd38096e073e8fb1159f
+SPEC CHECKSUMS:
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  PinLayout: e50e9a748b632905fca6e67043ea4b05d6c92186
+  WUtils: e9885a037da73d72d9ab3a9d765af88ced919fed
+
+PODFILE CHECKSUM: caa3d20143b4b9929cf4de89ef799c81d393f13b
 
 COCOAPODS: 1.10.1

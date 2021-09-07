@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-WUtilsDemo/Pods-WUtilsDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework
+${BUILT_PRODUCTS_DIR}/WUtils/WUtils.framework
