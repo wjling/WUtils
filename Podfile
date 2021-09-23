@@ -12,7 +12,11 @@ target 'WUtilsDemo' do
   
   # Pods for WUtilsDemo
   pod 'Kingfisher'
+  pod 'PinLayout'
   pod "WUtils", :path => '.'
+  
+  # For debug
+  pod 'LookinServer', :configurations => ['Debug']
   
   target 'WUtils' do
     inherit! :search_paths

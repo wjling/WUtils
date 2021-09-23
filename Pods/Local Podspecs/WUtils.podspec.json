@@ -15,10 +15,5 @@
     "git": "http://github.com/wjling/WUtils.git",
     "tag": "0.0.1"
   },
-  "source_files": "WUtils/Sources/**/*.{h,m,swift}",
-  "dependencies": {
-    "PinLayout": [
-      "~> 1.10.0"
-    ]
-  }
+  "source_files": "WUtils/Sources/**/*.{h,m,swift}"
 }
