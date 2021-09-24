@@ -7,10 +7,10 @@
 
 import Foundation
 import UIKit
-import PinLayout
 
 class A {
     func F() {
         UIView.w.create()
+        let color = UIColor.init(hex: 0x000000, alpha: 1)
     }
 }

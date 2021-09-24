@@ -15,5 +15,9 @@
     "git": "http://github.com/wjling/WUtils.git",
     "tag": "0.0.1"
   },
-  "source_files": "WUtils/Sources/**/*.{h,m,swift}"
+  "source_files": "WUtils/Sources/**/*.{h,m,swift}",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
 }

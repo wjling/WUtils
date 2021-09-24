@@ -8,8 +8,6 @@
 import Foundation
 import UIKit
 
-extension UIImage: InstanceExtensionProtocol {}
-
 extension InstanceExtensionHelper where Base: UIImage {
     
 }
