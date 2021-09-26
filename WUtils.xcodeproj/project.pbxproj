@@ -17,6 +17,7 @@
 		C36D571626FC682100E8FE75 /* ImageInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571526FC682100E8FE75 /* ImageInitController.swift */; };
 		C36D571926FC6D9F00E8FE75 /* UIColor+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571826FC6D9F00E8FE75 /* UIColor+Init.swift */; };
 		C36D571D26FDB59100E8FE75 /* String+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571C26FDB59100E8FE75 /* String+Transform.swift */; };
+		C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */; };
 		C38EDB9226E608C8003A93C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9126E608C8003A93C3 /* AppDelegate.swift */; };
 		C38EDB9426E608C8003A93C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9326E608C8003A93C3 /* SceneDelegate.swift */; };
 		C38EDB9626E608C8003A93C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9526E608C8003A93C3 /* MainViewController.swift */; };
@@ -62,6 +63,7 @@
 		C36D571526FC682100E8FE75 /* ImageInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInitController.swift; sourceTree = "<group>"; };
 		C36D571826FC6D9F00E8FE75 /* UIColor+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Init.swift"; sourceTree = "<group>"; };
 		C36D571C26FDB59100E8FE75 /* String+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Transform.swift"; sourceTree = "<group>"; };
+		C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashGuard+KVC.swift"; sourceTree = "<group>"; };
 		C38EDB8F26E608C8003A93C3 /* WUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38EDB9126E608C8003A93C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38EDB9326E608C8003A93C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -204,6 +206,14 @@
 			path = String;
 			sourceTree = "<group>";
 		};
+		C37AF3A227001D7900176672 /* CrashGuard */ = {
+			isa = PBXGroup;
+			children = (
+				C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */,
+			);
+			path = CrashGuard;
+			sourceTree = "<group>";
+		};
 		C38EDB9026E608C8003A93C3 /* WUtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +233,7 @@
 		C3ABBB7426B7E6940097FB2E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C37AF3A227001D7900176672 /* CrashGuard */,
 				C36D571B26FDB4FA00E8FE75 /* String */,
 				C3ABBB7826B8E9200097FB2E /* Base */,
 				C3ABBB7726B8E9070097FB2E /* UIImage */,
@@ -492,6 +503,7 @@
 			files = (
 				C3D64B4726F1F1FA008242FA /* NSObject+ExtensionProtocol.swift in Sources */,
 				C36D571D26FDB59100E8FE75 /* String+Transform.swift in Sources */,
+				C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */,
 				C38EDBA426E734C2003A93C3 /* UIImage+ExtensionProtocol.swift in Sources */,
 				C3D64B4426F1A235008242FA /* UIImage+Init.swift in Sources */,
 				C36D571926FC6D9F00E8FE75 /* UIColor+Init.swift in Sources */,
