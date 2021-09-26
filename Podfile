@@ -18,7 +18,7 @@ target 'WUtilsDemo' do
   # For debug
   pod 'LookinServer', :configurations => ['Debug']
   
-  target 'WUtils' do
+  target 'WUtilsFramework' do
     inherit! :search_paths
   end
   

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C35F601226B7CA2000747855"
-               BuildableName = "WUtils.framework"
-               BlueprintName = "WUtils"
+               BuildableName = "WUtilsFramework.framework"
+               BlueprintName = "WUtilsFramework"
                ReferencedContainer = "container:WUtils.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C35F601226B7CA2000747855"
-            BuildableName = "WUtils.framework"
-            BlueprintName = "WUtils"
+            BuildableName = "WUtilsFramework.framework"
+            BlueprintName = "WUtilsFramework"
             ReferencedContainer = "container:WUtils.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

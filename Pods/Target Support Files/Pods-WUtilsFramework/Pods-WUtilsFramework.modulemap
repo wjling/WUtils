@@ -1,0 +1,6 @@
+framework module Pods_WUtilsFramework {
+  umbrella header "Pods-WUtilsFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

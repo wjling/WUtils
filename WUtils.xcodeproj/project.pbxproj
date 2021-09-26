@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1319F7A0503C1390441B9D61 /* Pods_WUtilsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567F9673FAA9BB1541460A29 /* Pods_WUtilsTests.framework */; };
+		4436098D702974FEF7A625CF /* Pods_WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D297A5496F1B23471E219 /* Pods_WUtilsFramework.framework */; };
 		6DB008FF79738CBF7DF2BA87 /* Pods_WUtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6635BE42ACABECF5334288BA /* Pods_WUtilsDemo.framework */; };
-		C1F6A05D502E4E3DE566A151 /* Pods_WUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21133DEE0637E2651D446AFB /* Pods_WUtils.framework */; };
-		C35F601D26B7CA2000747855 /* WUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F601326B7CA2000747855 /* WUtils.framework */; };
+		C35F601D26B7CA2000747855 /* WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F601326B7CA2000747855 /* WUtilsFramework.framework */; };
 		C35F602226B7CA2000747855 /* WUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F602126B7CA2000747855 /* WUtilsTests.swift */; };
 		C35F602426B7CA2000747855 /* WUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F601626B7CA2000747855 /* WUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C36D571226FC661D00E8FE75 /* DemoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571126FC661D00E8FE75 /* DemoManager.swift */; };
@@ -42,17 +42,17 @@
 
 /* Begin PBXFileReference section */
 		01BCDEFDC0D5626373B73AE7 /* Pods-WUtils-WUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils-WUtilsTests.debug.xcconfig"; path = "Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		21133DEE0637E2651D446AFB /* Pods_WUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2765DC56747A4C84F21D3517 /* Pods-WUtilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsTests.release.xcconfig"; path = "Target Support Files/Pods-WUtilsTests/Pods-WUtilsTests.release.xcconfig"; sourceTree = "<group>"; };
 		29263F3A711A4064A7E648EC /* Pods-WUtils-WUtilsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils-WUtilsTests.release.xcconfig"; path = "Target Support Files/Pods-WUtils-WUtilsTests/Pods-WUtils-WUtilsTests.release.xcconfig"; sourceTree = "<group>"; };
-		526ABB09856A1C3A631632D5 /* Pods-WUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils.debug.xcconfig"; path = "Target Support Files/Pods-WUtils/Pods-WUtils.debug.xcconfig"; sourceTree = "<group>"; };
+		372D297A5496F1B23471E219 /* Pods_WUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		567F9673FAA9BB1541460A29 /* Pods_WUtilsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtilsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659B6FEFE3B0D1EFC03BEF7B /* Pods-WUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsDemo.release.xcconfig"; path = "Target Support Files/Pods-WUtilsDemo/Pods-WUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6635BE42ACABECF5334288BA /* Pods_WUtilsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76524A861C8ABEBCD6CD3ED0 /* Pods-WUtilsFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsFramework.release.xcconfig"; path = "Target Support Files/Pods-WUtilsFramework/Pods-WUtilsFramework.release.xcconfig"; sourceTree = "<group>"; };
+		86FFE8DB56823FF54713EF30 /* Pods-WUtilsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsFramework.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsFramework/Pods-WUtilsFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		A9EF5BB1494855DBA1ABCB5D /* Pods-WUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsDemo/Pods-WUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B43A4D9F6332BD152AFF2614 /* Pods-WUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsTests.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsTests/Pods-WUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B44963809B0A1BEEEDD3C2CE /* Pods-WUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtils.release.xcconfig"; path = "Target Support Files/Pods-WUtils/Pods-WUtils.release.xcconfig"; sourceTree = "<group>"; };
-		C35F601326B7CA2000747855 /* WUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35F601326B7CA2000747855 /* WUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F601626B7CA2000747855 /* WUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUtils.h; sourceTree = "<group>"; };
 		C35F601726B7CA2000747855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C35F601C26B7CA2000747855 /* WUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F6A05D502E4E3DE566A151 /* Pods_WUtils.framework in Frameworks */,
+				4436098D702974FEF7A625CF /* Pods_WUtilsFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35F601D26B7CA2000747855 /* WUtils.framework in Frameworks */,
+				C35F601D26B7CA2000747855 /* WUtilsFramework.framework in Frameworks */,
 				1319F7A0503C1390441B9D61 /* Pods_WUtilsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,8 +116,8 @@
 				659B6FEFE3B0D1EFC03BEF7B /* Pods-WUtilsDemo.release.xcconfig */,
 				B43A4D9F6332BD152AFF2614 /* Pods-WUtilsTests.debug.xcconfig */,
 				2765DC56747A4C84F21D3517 /* Pods-WUtilsTests.release.xcconfig */,
-				526ABB09856A1C3A631632D5 /* Pods-WUtils.debug.xcconfig */,
-				B44963809B0A1BEEEDD3C2CE /* Pods-WUtils.release.xcconfig */,
+				86FFE8DB56823FF54713EF30 /* Pods-WUtilsFramework.debug.xcconfig */,
+				76524A861C8ABEBCD6CD3ED0 /* Pods-WUtilsFramework.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 		C35F601426B7CA2000747855 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C35F601326B7CA2000747855 /* WUtils.framework */,
+				C35F601326B7CA2000747855 /* WUtilsFramework.framework */,
 				C35F601C26B7CA2000747855 /* WUtilsTests.xctest */,
 				C38EDB8F26E608C8003A93C3 /* WUtilsDemo.app */,
 			);
@@ -253,9 +253,9 @@
 		C7ECA660257A4B79206AB585 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21133DEE0637E2651D446AFB /* Pods_WUtils.framework */,
 				6635BE42ACABECF5334288BA /* Pods_WUtilsDemo.framework */,
 				567F9673FAA9BB1541460A29 /* Pods_WUtilsTests.framework */,
+				372D297A5496F1B23471E219 /* Pods_WUtilsFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -274,11 +274,11 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C35F601226B7CA2000747855 /* WUtils */ = {
+		C35F601226B7CA2000747855 /* WUtilsFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C35F602726B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtils" */;
+			buildConfigurationList = C35F602726B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtilsFramework" */;
 			buildPhases = (
-				C1C7FA1DA19093141DA76983 /* [CP] Check Pods Manifest.lock */,
+				004464C871CC0BF8B99BDC94 /* [CP] Check Pods Manifest.lock */,
 				C35F600E26B7CA2000747855 /* Headers */,
 				C35F600F26B7CA2000747855 /* Sources */,
 				C35F601026B7CA2000747855 /* Frameworks */,
@@ -288,9 +288,9 @@
 			);
 			dependencies = (
 			);
-			name = WUtils;
+			name = WUtilsFramework;
 			productName = WUtils;
-			productReference = C35F601326B7CA2000747855 /* WUtils.framework */;
+			productReference = C35F601326B7CA2000747855 /* WUtilsFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C35F601B26B7CA2000747855 /* WUtilsTests */ = {
@@ -365,7 +365,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C35F601226B7CA2000747855 /* WUtils */,
+				C35F601226B7CA2000747855 /* WUtilsFramework */,
 				C38EDB8E26E608C8003A93C3 /* WUtilsDemo */,
 				C35F601B26B7CA2000747855 /* WUtilsTests */,
 			);
@@ -400,6 +400,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		004464C871CC0BF8B99BDC94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WUtilsFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2DE0CDC0D3349812830A6ADF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,28 +483,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C1C7FA1DA19093141DA76983 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WUtils-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -525,7 +525,7 @@
 /* Begin PBXTargetDependency section */
 		C35F601F26B7CA2000747855 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C35F601226B7CA2000747855 /* WUtils */;
+			target = C35F601226B7CA2000747855 /* WUtilsFramework */;
 			targetProxy = C35F601E26B7CA2000747855 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -674,7 +674,7 @@
 		};
 		C35F602826B7CA2000747855 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 526ABB09856A1C3A631632D5 /* Pods-WUtils.debug.xcconfig */;
+			baseConfigurationReference = 86FFE8DB56823FF54713EF30 /* Pods-WUtilsFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -691,6 +691,29 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"LookinServer\"",
+					"-framework",
+					"\"PinLayout\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"Combine\"",
+					"-weak_framework",
+					"\"SwiftUI\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjl.WUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -702,7 +725,7 @@
 		};
 		C35F602926B7CA2000747855 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B44963809B0A1BEEEDD3C2CE /* Pods-WUtils.release.xcconfig */;
+			baseConfigurationReference = 76524A861C8ABEBCD6CD3ED0 /* Pods-WUtilsFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -821,7 +844,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C35F602726B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtils" */ = {
+		C35F602726B7CA2000747855 /* Build configuration list for PBXNativeTarget "WUtilsFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C35F602826B7CA2000747855 /* Debug */,
