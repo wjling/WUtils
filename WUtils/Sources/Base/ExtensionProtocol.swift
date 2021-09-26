@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 public protocol InstanceExtensionProtocol {
-    associatedtype someType
-    var w: someType { get }
+    associatedtype InstanceType
+    var w: InstanceType { get }
 }
 
 public extension InstanceExtensionProtocol {
@@ -25,8 +25,8 @@ public class InstanceExtensionHelper<Base> {
 }
 
 public protocol StaticExtensionProtocol {
-    associatedtype someType
-    static var w: someType { get }
+    associatedtype StaticType
+    static var w: StaticType { get }
 }
 
 public extension StaticExtensionProtocol {
