@@ -40,14 +40,15 @@ public class StaticExtensionHelper<Base> {
     }
 }
 
-extension UIView: StaticExtensionProtocol {}
+extension NSObject: StaticExtensionProtocol {}
+extension NSObject: InstanceExtensionProtocol {}
 
 public extension StaticExtensionHelper where Base: UIView {
 
     func create() {
 
     }
-    
+
     func testText() -> String {
         return "WUtils Test String~"
     }
