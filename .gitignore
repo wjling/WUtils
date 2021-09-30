@@ -1,6 +1,3 @@
-.DS_Store
-*.xcuserstate
-
 # Xcode
 .DS_Store
 */build/*
@@ -13,6 +10,7 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+*.xcuserstate
 *.moved-aside
 DerivedData
 .idea/
