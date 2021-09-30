@@ -61,7 +61,7 @@ class ImageInitController: UIViewController {
         view.backgroundColor = .white
         
         colorTextField.placeholder = "请输入16进制色值，如ffffff"
-        colorTextField.text = "ff0000"
+        colorTextField.text = "A764FE"
         colorTextField.font = .systemFont(ofSize: 11)
         colorTextField.adjustsFontSizeToFitWidth = true
         colorTextField.backgroundColor = UIColor.init(hex: 0xe9e9e9, alpha: 1)
@@ -99,9 +99,8 @@ class ImageInitController: UIViewController {
     }
     
     @objc private func confirmButtonClick() {
-        let hex = "\(colorTextField.text ?? "")".w.hexValue ?? 0
-        let color_int = Int32(hex)
-        let color = UIColor.init(hex: color_int, alpha: 1)
+        let color = UIColor.init(hexString: colorTextField.text ?? "")
+        print("color: \(String(describing: color))")
         let radius = Double(cornerRadiusTextField.text ?? "") ?? 0
         var corners: UIRectCorner = []
         if topLeftSwitch.isOn {
@@ -116,7 +115,7 @@ class ImageInitController: UIViewController {
         if bottomRightSwitch.isOn {
             corners.insert(.bottomRight)
         }
-        let image = UIImage.init(color: color, size: .init(width: 50, height: 50), roundingCorners: corners, cornerRadius: radius)
+        let image = UIImage.init(color: color ?? .red, size: .init(width: 50, height: 50), roundingCorners: corners, cornerRadius: radius)
         imageView.image = image
     }
 }

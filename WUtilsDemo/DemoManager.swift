@@ -15,7 +15,7 @@ enum Demo: CaseIterable {
     var title: String {
         switch self {
         case .test:
-            return "测试页面"
+            return "绘图测试"
         case .swizzleMethod:
             return "方法交换"
         }
