@@ -20,6 +20,7 @@
 		C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */; };
 		C37AF3A72700245200176672 /* NSObject+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A62700245200176672 /* NSObject+Swizzle.swift */; };
 		C37AF3AA270085C000176672 /* SwizzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A9270085C000176672 /* SwizzleViewController.swift */; };
+		C37AF3AE2701CA2D00176672 /* GlobalSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3AD2701CA2D00176672 /* GlobalSettings.swift */; };
 		C38EDB9226E608C8003A93C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9126E608C8003A93C3 /* AppDelegate.swift */; };
 		C38EDB9426E608C8003A93C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9326E608C8003A93C3 /* SceneDelegate.swift */; };
 		C38EDB9626E608C8003A93C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDB9526E608C8003A93C3 /* MainViewController.swift */; };
@@ -66,6 +67,7 @@
 		C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashGuard+KVC.swift"; sourceTree = "<group>"; };
 		C37AF3A62700245200176672 /* NSObject+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Swizzle.swift"; sourceTree = "<group>"; };
 		C37AF3A9270085C000176672 /* SwizzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwizzleViewController.swift; sourceTree = "<group>"; };
+		C37AF3AD2701CA2D00176672 /* GlobalSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSettings.swift; sourceTree = "<group>"; };
 		C38EDB8F26E608C8003A93C3 /* WUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38EDB9126E608C8003A93C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C38EDB9326E608C8003A93C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				C38EDB9326E608C8003A93C3 /* SceneDelegate.swift */,
 				C38EDB9526E608C8003A93C3 /* MainViewController.swift */,
 				C36D571126FC661D00E8FE75 /* DemoManager.swift */,
+				C37AF3AD2701CA2D00176672 /* GlobalSettings.swift */,
 				C38EDB9A26E608CB003A93C3 /* Assets.xcassets */,
 				C38EDB9C26E608CB003A93C3 /* LaunchScreen.storyboard */,
 				C38EDB9F26E608CB003A93C3 /* Info.plist */,
@@ -534,6 +537,7 @@
 				C36D571226FC661D00E8FE75 /* DemoManager.swift in Sources */,
 				C38EDB9626E608C8003A93C3 /* MainViewController.swift in Sources */,
 				C38EDB9226E608C8003A93C3 /* AppDelegate.swift in Sources */,
+				C37AF3AE2701CA2D00176672 /* GlobalSettings.swift in Sources */,
 				C38EDB9426E608C8003A93C3 /* SceneDelegate.swift in Sources */,
 				C36D571626FC682100E8FE75 /* ImageInitController.swift in Sources */,
 				C37AF3AA270085C000176672 /* SwizzleViewController.swift in Sources */,
