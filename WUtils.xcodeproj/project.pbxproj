@@ -16,7 +16,7 @@
 		C36D571226FC661D00E8FE75 /* DemoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571126FC661D00E8FE75 /* DemoManager.swift */; };
 		C36D571626FC682100E8FE75 /* ImageInitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571526FC682100E8FE75 /* ImageInitController.swift */; };
 		C36D571926FC6D9F00E8FE75 /* UIColor+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571826FC6D9F00E8FE75 /* UIColor+Init.swift */; };
-		C36D571D26FDB59100E8FE75 /* String+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571C26FDB59100E8FE75 /* String+Transform.swift */; };
+		C36D571D26FDB59100E8FE75 /* String+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D571C26FDB59100E8FE75 /* String+Conversion.swift */; };
 		C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */; };
 		C37AF3A72700245200176672 /* NSObject+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A62700245200176672 /* NSObject+Swizzle.swift */; };
 		C37AF3AA270085C000176672 /* SwizzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37AF3A9270085C000176672 /* SwizzleViewController.swift */; };
@@ -62,7 +62,7 @@
 		C36D571126FC661D00E8FE75 /* DemoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoManager.swift; sourceTree = "<group>"; };
 		C36D571526FC682100E8FE75 /* ImageInitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInitController.swift; sourceTree = "<group>"; };
 		C36D571826FC6D9F00E8FE75 /* UIColor+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Init.swift"; sourceTree = "<group>"; };
-		C36D571C26FDB59100E8FE75 /* String+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Transform.swift"; sourceTree = "<group>"; };
+		C36D571C26FDB59100E8FE75 /* String+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Conversion.swift"; sourceTree = "<group>"; };
 		C37AF3A327001DB200176672 /* CrashGuard+KVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CrashGuard+KVC.swift"; sourceTree = "<group>"; };
 		C37AF3A62700245200176672 /* NSObject+Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Swizzle.swift"; sourceTree = "<group>"; };
 		C37AF3A9270085C000176672 /* SwizzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwizzleViewController.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 		C36D571B26FDB4FA00E8FE75 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				C36D571C26FDB59100E8FE75 /* String+Transform.swift */,
+				C36D571C26FDB59100E8FE75 /* String+Conversion.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -509,7 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D64B4726F1F1FA008242FA /* NSObject+ExtensionProtocol.swift in Sources */,
-				C36D571D26FDB59100E8FE75 /* String+Transform.swift in Sources */,
+				C36D571D26FDB59100E8FE75 /* String+Conversion.swift in Sources */,
 				C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */,
 				C38EDBA426E734C2003A93C3 /* UIImage+ExtensionProtocol.swift in Sources */,
 				C3D64B4426F1A235008242FA /* UIImage+Init.swift in Sources */,
