@@ -24,15 +24,24 @@ class SwizzleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        let a = A()
-        print("执行a.a() -------")
-        a.a()
-        print("执行a.A_a() -------")
-        a.A_a()
-        print("执行A.c() -------")
-        A.c()
-        print("执行A.A_c() -------")
-        A.A_c()
+        
+//        let a = A()
+//        print("执行a.a() -------")
+//        a.a()
+//        print("执行a.A_a() -------")
+//        a.A_a()
+//        print("执行A.c() -------")
+//        A.c()
+//        print("执行A.A_c() -------")
+//        A.A_c()
+        
+        let str = """
+        {"account": "wangjinling", "password": 1024}
+        """
+        let dict = str.w.toDict()
+        
+        let jsonString = dict?.w.toJSONString()
+        print("jsonString: \(String(describing: jsonString))")
     }
     
     class Base: NSObject {

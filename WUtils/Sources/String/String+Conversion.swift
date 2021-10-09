@@ -19,19 +19,19 @@ public extension InstanceExtensionHelper where Base == String {
         return nil
     }
     
-    /// Convert string to utf8 encoded data.
+    /// Convert String to utf8 encoded Data.
     func toUTF8Data() -> Data {
         Data.init(base.utf8)
     }
     
-    /// Convert string to data.
+    /// Convert String to Data.
     /// - Parameter encode: String encoding option
     /// - Returns: Data, maybe nil
     func toData(_ encode: String.Encoding = .utf8) -> Data? {
         base.data(using: encode)
     }
     
-    /// Convert string to dictionary
+    /// Convert String to Dictionary
     func toDict() -> [String: Any]? {
         try? JSONSerialization.jsonObject(with: toUTF8Data(), options: .fragmentsAllowed) as? [String: Any]
     }

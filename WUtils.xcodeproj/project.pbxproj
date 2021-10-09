@@ -10,6 +10,7 @@
 		1319F7A0503C1390441B9D61 /* Pods_WUtilsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567F9673FAA9BB1541460A29 /* Pods_WUtilsTests.framework */; };
 		4436098D702974FEF7A625CF /* Pods_WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D297A5496F1B23471E219 /* Pods_WUtilsFramework.framework */; };
 		6DB008FF79738CBF7DF2BA87 /* Pods_WUtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6635BE42ACABECF5334288BA /* Pods_WUtilsDemo.framework */; };
+		C33FA46127116E870066CCD0 /* Dictionary+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33FA46027116E870066CCD0 /* Dictionary+Conversion.swift */; };
 		C35F601D26B7CA2000747855 /* WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F601326B7CA2000747855 /* WUtilsFramework.framework */; };
 		C35F602226B7CA2000747855 /* WUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F602126B7CA2000747855 /* WUtilsTests.swift */; };
 		C35F602426B7CA2000747855 /* WUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F601626B7CA2000747855 /* WUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +55,7 @@
 		86FFE8DB56823FF54713EF30 /* Pods-WUtilsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsFramework.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsFramework/Pods-WUtilsFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		A9EF5BB1494855DBA1ABCB5D /* Pods-WUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsDemo/Pods-WUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B43A4D9F6332BD152AFF2614 /* Pods-WUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsTests.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsTests/Pods-WUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C33FA46027116E870066CCD0 /* Dictionary+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Conversion.swift"; sourceTree = "<group>"; };
 		C35F601326B7CA2000747855 /* WUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F601626B7CA2000747855 /* WUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUtils.h; sourceTree = "<group>"; };
 		C35F601726B7CA2000747855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 				76524A861C8ABEBCD6CD3ED0 /* Pods-WUtilsFramework.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C33FA45F27116E680066CCD0 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C33FA46027116E870066CCD0 /* Dictionary+Conversion.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		C35F600926B7CA2000747855 = {
@@ -244,6 +254,7 @@
 		C3ABBB7426B7E6940097FB2E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C33FA45F27116E680066CCD0 /* Dictionary */,
 				C37AF3A227001D7900176672 /* CrashGuard */,
 				C36D571B26FDB4FA00E8FE75 /* String */,
 				C3ABBB7826B8E9200097FB2E /* Base */,
@@ -518,6 +529,7 @@
 				C3D64B4426F1A235008242FA /* UIImage+Init.swift in Sources */,
 				C36D571926FC6D9F00E8FE75 /* UIColor+Init.swift in Sources */,
 				C37AF3A72700245200176672 /* NSObject+Swizzle.swift in Sources */,
+				C33FA46127116E870066CCD0 /* Dictionary+Conversion.swift in Sources */,
 				C3ABBB7A26B8ECB30097FB2E /* ExtensionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
