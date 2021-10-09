@@ -22,7 +22,7 @@ public extension UIColor {
                 colorHex = colorHex.reduce("", {"\($0)\($1)\($1)"})
             }
         }
-        if let hex = colorHex.w.hexValue {
+        if let hex = colorHex.w.toHex() {
             self.init(hex: Int(hex), alpha: alpha)
         } else {
             return nil
