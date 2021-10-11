@@ -46,18 +46,25 @@ class ExtensionTestController: UIViewController {
         let dict = str.w.toDict()
         print("string to dict: \(String(describing: dict))")
         
-        let jsonString = dict?.w.toJSONString()
+        let jsonString = dict?.w.toString()
         print("dict to string: \(String(describing: jsonString))")
         
         let arr = [1, 2, 3]
-        let arrString = arr.w.toString()
-        print("array to string: \(String(describing: arrString))")
+        let arrJSONData = arr.w.toJSONData()
+        var arrJSONString: String?
+        if let arrJSONData = arrJSONData {
+            arrJSONString = String.init(data: arrJSONData, encoding: .utf8)
+        }
+        print("array to json string: \(String(describing: arrJSONString))")
         
         let index = 3
         let e = arr.w.object(at: index)
         print("array element at index: \(index), element: \(String(describing: e))")
         
-        let newArr = arrString?.w.toArray()
+        let newArr = arrJSONString?.w.toArray()
         print("string to array: \(String(describing: newArr))")
+        
+        let arrEncodedString1 = arr.w.toString()
+        print("array encoded data to string: \(String(describing: arrEncodedString1))")
     }
 }

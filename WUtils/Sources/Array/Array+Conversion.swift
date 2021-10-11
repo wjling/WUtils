@@ -8,17 +8,31 @@
 import Foundation
 
 public extension ArrayInstanceExtensionHelper {
-    func toString() -> String? {
-        if let data = toData() {
-            return String(data: data, encoding: .utf8)
-        }
-        return nil
-    }
-    
-    func toData() -> Data? {
+    /// Convert Array to Data by JSONSerialization
+    func toJSONData() -> Data? {
         if !JSONSerialization.isValidJSONObject(base) {
             return nil
         }
         return try? JSONSerialization.data(withJSONObject: base, options: .fragmentsAllowed)
+    }
+    
+    /// Convert Array to String with JSON data
+    func toString() -> String? {
+        guard let data = toJSONData() else { return nil }
+        return String(data: data, encoding: .utf8)
+    }
+}
+
+public extension ArrayInstanceExtensionHelper where ArrayElement: Encodable {
+    /// Convert Array to Data by JSONEncoder
+    func toEncodedData() -> Data? {
+        let encoder = JSONEncoder()
+        return try? encoder.encode(base)
+    }
+    
+    /// Convert Array to String with encoded data
+    func toString() -> String? {
+        guard let data = toEncodedData() else { return nil }
+        return String(data: data, encoding: .utf8)
     }
 }
