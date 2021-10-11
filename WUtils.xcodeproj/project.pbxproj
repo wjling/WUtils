@@ -10,6 +10,7 @@
 		1319F7A0503C1390441B9D61 /* Pods_WUtilsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567F9673FAA9BB1541460A29 /* Pods_WUtilsTests.framework */; };
 		4436098D702974FEF7A625CF /* Pods_WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D297A5496F1B23471E219 /* Pods_WUtilsFramework.framework */; };
 		6DB008FF79738CBF7DF2BA87 /* Pods_WUtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6635BE42ACABECF5334288BA /* Pods_WUtilsDemo.framework */; };
+		C32DC6D02713E24B006B62B4 /* ExtensionTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32DC6CF2713E24B006B62B4 /* ExtensionTestController.swift */; };
 		C33FA46127116E870066CCD0 /* Dictionary+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33FA46027116E870066CCD0 /* Dictionary+Conversion.swift */; };
 		C35F601D26B7CA2000747855 /* WUtilsFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35F601326B7CA2000747855 /* WUtilsFramework.framework */; };
 		C35F602226B7CA2000747855 /* WUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F602126B7CA2000747855 /* WUtilsTests.swift */; };
@@ -57,6 +58,7 @@
 		86FFE8DB56823FF54713EF30 /* Pods-WUtilsFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsFramework.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsFramework/Pods-WUtilsFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		A9EF5BB1494855DBA1ABCB5D /* Pods-WUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsDemo/Pods-WUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B43A4D9F6332BD152AFF2614 /* Pods-WUtilsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WUtilsTests.debug.xcconfig"; path = "Target Support Files/Pods-WUtilsTests/Pods-WUtilsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C32DC6CF2713E24B006B62B4 /* ExtensionTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTestController.swift; sourceTree = "<group>"; };
 		C33FA46027116E870066CCD0 /* Dictionary+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Conversion.swift"; sourceTree = "<group>"; };
 		C35F601326B7CA2000747855 /* WUtilsFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WUtilsFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35F601626B7CA2000747855 /* WUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WUtils.h; sourceTree = "<group>"; };
@@ -132,6 +134,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C32DC6CE2713E20C006B62B4 /* Array&DictExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C32DC6CF2713E24B006B62B4 /* ExtensionTestController.swift */,
+			);
+			path = "Array&DictExtension";
+			sourceTree = "<group>";
+		};
 		C33FA45F27116E680066CCD0 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +196,7 @@
 		C36D571026FC660100E8FE75 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				C32DC6CE2713E20C006B62B4 /* Array&DictExtension */,
 				C37AF3A82700859800176672 /* Swizzle */,
 				C36D571426FC67D300E8FE75 /* ImageInit */,
 			);
@@ -564,6 +575,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36D571226FC661D00E8FE75 /* DemoManager.swift in Sources */,
+				C32DC6D02713E24B006B62B4 /* ExtensionTestController.swift in Sources */,
 				C38EDB9626E608C8003A93C3 /* MainViewController.swift in Sources */,
 				C38EDB9226E608C8003A93C3 /* AppDelegate.swift in Sources */,
 				C37AF3AE2701CA2D00176672 /* GlobalSettings.swift in Sources */,

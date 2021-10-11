@@ -25,35 +25,15 @@ class SwizzleViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         
-//        let a = A()
-//        print("执行a.a() -------")
-//        a.a()
-//        print("执行a.A_a() -------")
-//        a.A_a()
-//        print("执行A.c() -------")
-//        A.c()
-//        print("执行A.A_c() -------")
-//        A.A_c()
-        
-        let str = """
-        {"account": "wangjinling", "password": 1024}
-        """
-        let dict = str.w.toDict()
-        print("string to dict: \(String(describing: dict))")
-        
-        let jsonString = dict?.w.toJSONString()
-        print("dict to string: \(String(describing: jsonString))")
-        
-        let arr = [1, 2, 3]
-        let arrString = arr.w.toString()
-        print("array to string: \(String(describing: arrString))")
-        
-        let index = 3
-        let e = arr.w.object(at: index)
-        print("array element at index: \(index), element: \(String(describing: e))")
-        
-        let newArr = arrString?.w.toArray()
-        print("string to array: \(String(describing: newArr))")
+        let a = A()
+        print("执行a.a() -------")
+        a.a()
+        print("执行a.A_a() -------")
+        a.A_a()
+        print("执行A.c() -------")
+        A.c()
+        print("执行A.A_c() -------")
+        A.A_c()
     }
     
     class Base: NSObject {
