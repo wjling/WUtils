@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+// MARK: - General Instance Protocol & Helper
 public protocol InstanceExtensionProtocol {
     associatedtype InstanceType
     var w: InstanceType { get }
@@ -24,6 +25,7 @@ public class InstanceExtensionHelper<Base> {
     }
 }
 
+// MARK: - General Static Protocol & Helper
 public protocol StaticExtensionProtocol {
     associatedtype StaticType
     static var w: StaticType { get }
@@ -40,16 +42,30 @@ public class StaticExtensionHelper<Base> {
     }
 }
 
-extension NSObject: StaticExtensionProtocol {}
-extension NSObject: InstanceExtensionProtocol {}
-
-public extension StaticExtensionHelper where Base: UIView {
-
-    func create() {
-
-    }
-
-    func testText() -> String {
-        return "WUtils Test String~"
+// MARK: - Array Extension
+public class ArrayInstanceExtensionHelper<ArrayElement> {
+    let base: [ArrayElement]
+    init(_ base: [ArrayElement]) {
+        self.base = base
     }
 }
+
+extension Array: InstanceExtensionProtocol {
+    public var w: ArrayInstanceExtensionHelper<Self.Element> { ArrayInstanceExtensionHelper(self) }
+}
+
+// MARK: - Dictionary Extension
+public class DictionaryInstanceExtensionHelper<DictKey, DictValue> where DictKey: Hashable {
+    let base: [DictKey: DictValue]
+    init(_ base: [DictKey: DictValue]) {
+        self.base = base
+    }
+}
+
+extension Dictionary: InstanceExtensionProtocol {
+    public var w: DictionaryInstanceExtensionHelper<Self.Key, Self.Value> { DictionaryInstanceExtensionHelper(self) }
+}
+
+// MARK: - Other Extension
+extension NSObject: StaticExtensionProtocol {}
+extension NSObject: InstanceExtensionProtocol {}

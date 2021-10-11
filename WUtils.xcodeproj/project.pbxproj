@@ -29,6 +29,8 @@
 		C38EDB9E26E608CB003A93C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38EDB9C26E608CB003A93C3 /* LaunchScreen.storyboard */; };
 		C38EDBA426E734C2003A93C3 /* UIImage+ExtensionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EDBA326E734C2003A93C3 /* UIImage+ExtensionProtocol.swift */; };
 		C3ABBB7A26B8ECB30097FB2E /* ExtensionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ABBB7926B8ECB30097FB2E /* ExtensionProtocol.swift */; };
+		C3B8BDB927118103003CDDA8 /* Array+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B8BDB827118103003CDDA8 /* Array+Conversion.swift */; };
+		C3C625DA2713D8BB007EF4C7 /* Array+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C625D92713D8BB007EF4C7 /* Array+Query.swift */; };
 		C3D64B4426F1A235008242FA /* UIImage+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D64B4326F1A235008242FA /* UIImage+Init.swift */; };
 		C3D64B4726F1F1FA008242FA /* NSObject+ExtensionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D64B4626F1F1FA008242FA /* NSObject+ExtensionProtocol.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +81,8 @@
 		C38EDB9F26E608CB003A93C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C38EDBA326E734C2003A93C3 /* UIImage+ExtensionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ExtensionProtocol.swift"; sourceTree = "<group>"; };
 		C3ABBB7926B8ECB30097FB2E /* ExtensionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionProtocol.swift; sourceTree = "<group>"; };
+		C3B8BDB827118103003CDDA8 /* Array+Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Conversion.swift"; sourceTree = "<group>"; };
+		C3C625D92713D8BB007EF4C7 /* Array+Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Query.swift"; sourceTree = "<group>"; };
 		C3D64B4226EC9A5A008242FA /* WUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = WUtils.podspec; sourceTree = "<group>"; };
 		C3D64B4326F1A235008242FA /* UIImage+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Init.swift"; sourceTree = "<group>"; };
 		C3D64B4626F1F1FA008242FA /* NSObject+ExtensionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ExtensionProtocol.swift"; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 		C3ABBB7426B7E6940097FB2E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C3B8BDB7271180F3003CDDA8 /* Array */,
 				C33FA45F27116E680066CCD0 /* Dictionary */,
 				C37AF3A227001D7900176672 /* CrashGuard */,
 				C36D571B26FDB4FA00E8FE75 /* String */,
@@ -281,6 +286,15 @@
 				C3D64B4626F1F1FA008242FA /* NSObject+ExtensionProtocol.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		C3B8BDB7271180F3003CDDA8 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				C3B8BDB827118103003CDDA8 /* Array+Conversion.swift */,
+				C3C625D92713D8BB007EF4C7 /* Array+Query.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 		C7ECA660257A4B79206AB585 /* Frameworks */ = {
@@ -372,6 +386,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					C35F601226B7CA2000747855 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -527,10 +542,12 @@
 				C37AF3A427001DB200176672 /* CrashGuard+KVC.swift in Sources */,
 				C38EDBA426E734C2003A93C3 /* UIImage+ExtensionProtocol.swift in Sources */,
 				C3D64B4426F1A235008242FA /* UIImage+Init.swift in Sources */,
+				C3C625DA2713D8BB007EF4C7 /* Array+Query.swift in Sources */,
 				C36D571926FC6D9F00E8FE75 /* UIColor+Init.swift in Sources */,
 				C37AF3A72700245200176672 /* NSObject+Swizzle.swift in Sources */,
 				C33FA46127116E870066CCD0 /* Dictionary+Conversion.swift in Sources */,
 				C3ABBB7A26B8ECB30097FB2E /* ExtensionProtocol.swift in Sources */,
+				C3B8BDB927118103003CDDA8 /* Array+Conversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

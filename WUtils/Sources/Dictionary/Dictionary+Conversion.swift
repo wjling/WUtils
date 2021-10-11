@@ -7,11 +7,7 @@
 
 import Foundation
 
-extension Dictionary: InstanceExtensionProtocol {
-    public var w: InstanceExtensionHelper<[AnyHashable: Any]> { InstanceExtensionHelper(self) }
-}
-
-public extension InstanceExtensionHelper where Base == Dictionary<AnyHashable, Any> {
+public extension DictionaryInstanceExtensionHelper {
     
     /// Convert Dictionary to Data
     func toData() -> Data? {

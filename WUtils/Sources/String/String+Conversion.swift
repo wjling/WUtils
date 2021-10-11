@@ -32,7 +32,14 @@ public extension InstanceExtensionHelper where Base == String {
     }
     
     /// Convert String to Dictionary
+    /// - Returns: [String: Any]?
     func toDict() -> [String: Any]? {
         try? JSONSerialization.jsonObject(with: toUTF8Data(), options: .fragmentsAllowed) as? [String: Any]
+    }
+    
+    /// Convert String to Array
+    /// - Returns: [Any]?
+    func toArray() -> [Any]? {
+        try? JSONSerialization.jsonObject(with: toUTF8Data(), options: .fragmentsAllowed) as? [Any]
     }
 }

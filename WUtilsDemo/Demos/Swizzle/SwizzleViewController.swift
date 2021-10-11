@@ -39,9 +39,21 @@ class SwizzleViewController: UIViewController {
         {"account": "wangjinling", "password": 1024}
         """
         let dict = str.w.toDict()
+        print("string to dict: \(String(describing: dict))")
         
         let jsonString = dict?.w.toJSONString()
-        print("jsonString: \(String(describing: jsonString))")
+        print("dict to string: \(String(describing: jsonString))")
+        
+        let arr = [1, 2, 3]
+        let arrString = arr.w.toString()
+        print("array to string: \(String(describing: arrString))")
+        
+        let index = 3
+        let e = arr.w.object(at: index)
+        print("array element at index: \(index), element: \(String(describing: e))")
+        
+        let newArr = arrString?.w.toArray()
+        print("string to array: \(String(describing: newArr))")
     }
     
     class Base: NSObject {
