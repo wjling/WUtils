@@ -18,7 +18,7 @@ public extension UIImage {
             context.cgContext.fillPath()
         }
         if let cgImage = img.cgImage {
-            self.init(cgImage: cgImage)
+            self.init(cgImage: cgImage, scale: UIScreen.main.scale, orientation: UIImage.Orientation.up)
         } else {
             self.init()
         }
