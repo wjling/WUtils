@@ -64,14 +64,14 @@ class ImageInitController: UIViewController {
         colorTextField.text = "A764FE"
         colorTextField.font = .systemFont(ofSize: 11)
         colorTextField.adjustsFontSizeToFitWidth = true
-        colorTextField.backgroundColor = UIColor.init(hex: 0xe9e9e9, alpha: 1)
+        colorTextField.backgroundColor = UIColor.init(0xe9e9e9, alpha: 1)
         view.addSubview(colorTextField)
         
         cornerRadiusTextField.placeholder = "请输入圆角"
         cornerRadiusTextField.text = "5"
         cornerRadiusTextField.keyboardType = .numberPad
         cornerRadiusTextField.font = UIFont.systemFont(ofSize: 12)
-        cornerRadiusTextField.backgroundColor = UIColor.init(hex: 0xe9e9e9, alpha: 1)
+        cornerRadiusTextField.backgroundColor = UIColor.init(0xe9e9e9, alpha: 1)
         view.addSubview(cornerRadiusTextField)
         
         topLeftSwitch.title = "左上角"
@@ -99,7 +99,7 @@ class ImageInitController: UIViewController {
     }
     
     @objc private func confirmButtonClick() {
-        let color = UIColor.init(hexString: colorTextField.text ?? "")
+        let color = UIColor.init(colorTextField.text ?? "")
         print("color: \(String(describing: color))")
         let radius = Double(cornerRadiusTextField.text ?? "") ?? 0
         var corners: UIRectCorner = []
